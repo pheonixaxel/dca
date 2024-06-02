@@ -3,6 +3,7 @@
 public enum ErrorCode
 {
     NoError = 0,
+
     // HTTP Error Codes
     BadRequest = 400,
     Unauthorized = 401,
@@ -10,7 +11,7 @@ public enum ErrorCode
     NotFound = 404,
     Teapot = 418,
     InternalServerError = 500,
-    
+
     // Event-specific errors
     EventNotFound = 2001,
     EventAlreadyActive = 2002,
